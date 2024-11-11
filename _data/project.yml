@@ -37,13 +37,14 @@ project:
     description: >-
       Persona-driven Collaborative Agents for Poster Design
     id: customized_design_card
-  - title: PlanFitting
-    image: exercise-planning.jpg
-    paper: arxiv2023_planfitting_paper.pdf
+  - title: PlayEye
+    image: Playeye.jpg
+    link: 'https://eng.snu.ac.kr/snu/pgm/hallOfFame/list.do?menuNo=200142&pageIndex=1&searchWnpz=WNPZ001&searchRnd=CRTV_2023_01'
+    paper: Grand Prize of 2023 Creative Design Fair, Seoul National University Engineering Department
     detail: >
       <p>Working with <a href='http://younghokim.net/'>Young-Ho Kim</a> at Naver AI, I built an interface that helps users to generate evidence-baesd exercise plans using an LLM chatbot.</p>
 
-      <p>This work was done during my internship at Naver AI. (under review)</p>
+      <p>This work was done during my internship at Naver AI.</p>
 
       <img src='site.baseurl/assets/images/project_detail/exercise-planning.jpg' class='img-responsive' alt='keyscreen of our system'>
 
@@ -58,10 +59,10 @@ project:
       - LLM
       - Chatbot
     description: >-
-      Natural language interface that helps to craft and iterate on evidence-based exercise plans
+      Toy for Preventing Child Myopia
     id: design_card
-  - title: From Paper to Card
-    image: design-card.jpg
+  - title: Multi Barbell Assistant
+    image: barbel.jpg
     paper: chi2024_paper2card_paper.pdf
     detail: >
       <p>Advised by <a href='https://www.llwang.net/'>Lucy Lu Wang</a> and <a href='https://faculty.washington.edu/garyhs/'>Gary Hsieh</a>, I built a system that automatically transforms design implications from HCI papers into design cards with generative AI. (CHI '24 paper)</p>
@@ -82,8 +83,8 @@ project:
     description: >-
       Transforming design implications into design cards with generative AI
     id: design_card
-  - title: AI-assisted Theory-informed Designing
-    image: cpd.jpg
+  - title: Anti-noise canceling PCB module
+    image: antinoise_PCB.jpg
     paper: chi2024_cpd-hcd_paper.pdf
     detail: >
       <p>Working with <a href='https://ruican-zhong.netlify.app/'>Ruican Zhong</a>, <a href='https://faculty.washington.edu/garyhs/'>Gary Hsieh</a>, <a href="https://lucascolusso.com/">Lucas Colusso</a>, and Kaiser Permanente research team, we built an LLM-infused Miro plugin that helps designers to generate causal pathway diagrams (CPDs) to inform their theory-driven designing. (CHI '24 paper)</p>
@@ -96,11 +97,8 @@ project:
 
       <p><b>[My role in this project]</b><br>Building a system</p>
     tags:
-      - Research
-      - <i class='fas fa-book'></i>&nbsp; CHI '24
-      - LLM
-      - Design
-      - Translational science
+      - PCB Design
+      - Circuit Design
     description: >-
       An LLM-infused Miro plugin that helps causal diagramming for human-centered design
     id: design_card
@@ -125,11 +123,11 @@ project:
       - <i class='fas fa-book'></i>&nbsp; CHI '24
       - LLM
       - Mental health
-    image: diarymate.jpg
-    title: DiaryMate
-    paper: chi2024_diarymate_paper.pdf
+    title: Talk Concert “Connecting the World with Engineering”
+    image: Talkconcert.jpg
+    paper: 
     description: >-
-      Supporting reflective writing processes using an LLM
+      Engineering talk concert for 200 public audiences
     id: diarymate
   - detail: >
       <p>Advised by <a href='https://faculty.washington.edu/garyhs/'>Gary
@@ -145,10 +143,8 @@ project:
 
       <p><b>[My role in this project]</b><br>Leading the project</p>
     tags:
-      - Research
-      - <i class='fas fa-book'></i>&nbsp; CHI '23
-      - Chatbot
-      - NLP
+      - Talk concert
+      - Engineering Lecture
     image: introbot.jpg
     title: "IntroBot"
     paper: chi2023_introbot_paper.pdf
@@ -179,8 +175,8 @@ project:
       - Research
       - <i class='fas fa-book'></i>&nbsp; CHI '23
       - Data-analysis
-    image: kmooc.jpg
-    title: How Older Adults Use Online Videos for Learning
+    title: RC Car Manufacturing
+    image: rccar.jpg
     paper: chi2023_mooc_paper.pdf
     description: Understanding how do older adults use online videos for learning
     id: kmooc
@@ -213,18 +209,18 @@ project:
       <p><b>[My role in this project]</b><br>User study, open-coding responses,
       system development</p>
     tags:
-      - Research
-      - <i class='fas fa-book'></i>&nbsp; CSCW '23
-      - <i class='fas fa-book'></i>&nbsp; NeurIPS '21
-      - XAI
-      - Svelte
+      - CFD Flow Simulation
+      - Metal Injection Molding
+      - CNC Machining
+      - G-code
+      - Product Design
     image: satellite-explainability.jpg
     title: Explainable AI for Visual Detection Task
     description: >-
       Guiding the design of AI explanation for assessing building damages from
       satellite imageries
     paper: neurips2021_satellite-explainability_workshop.pdf
-    link: 'https://dig.cmu.edu/publications/2021-satellite-damage-assessment.html'
+    link: 'https://eng.snu.ac.kr/snu/pgm/hallOfFame/list.do?menuNo=200142&pageIndex=1&searchWnpz=WNPZ001&searchRnd=CRTV_2023_01'
     id: satellite-explainability
   - code: 'https://github.com/donghoon-io/KoSentimentAnalysis'
     detail: >
