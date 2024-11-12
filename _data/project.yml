@@ -1,6 +1,6 @@
 project:
   - title: Non-Rigid Origami Dynamics Analysis
-    image: origamicontrol.jpg
+    image: origami.jpg
     detail: >
       <p>Advised by <a href='https://me.snu.ac.kr/en/snu__professor/yang-jinkyu/'>Jinkyu Yang</a>, we investigated the controllability and observability Gramian of an origami system composed of Miura-ori cells. (ready for submission)</p>
 
@@ -84,7 +84,7 @@ project:
       - Design & Fabrication
       - Computer Vision
     description: >-
-      Toy for Preventing Child Myopia
+      Haptic Device for Preventing Child Myopia
     id: design_card
   - title: Multi Barbell Assistant
     image: barbel.jpg
@@ -111,27 +111,21 @@ project:
   - image: swarm1.jpg
     title: Self-actuating Swarm Robot
     detail: >
-      <p>To guide the design of explanation for assessing damages from satellite
-      imageries, we are working on characterizing how humans generate
-      explainability.
+      <p> Advised by <a href='https://fluids.snu.ac.kr/hyk.htm'>Hoyoung Kim</a>, we developed a self- actuating swarm robotic system that employs 
+      mechanical intelligence through collective behaviors driven by varying magnetic forces.</p>
 
-      I'm excited to learn about generating model explainability from my wonderful
-      colleagues.<br><br></p>
+      <p> It exhibits a range of collective behaviors, including stable clustering, 
+      wall-following, splitting and merging, and efficient obstacle navigation.</p>
 
-      <p>Working with <a href='https://katelyn98.github.io'>Katelyn Morrison</a>,
-      this project was co-advised by <a
-      href='https://kenholstein.myportfolio.com/'>Ken Holstein</a> and <a
-      href='https://perer.org/'>Adam Perer</a>.
+      <div style="text-align: center;">
+        <video width="350" controls>
+          <source src="site.baseurl/assets/images/project_detail/swarm.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
 
-      This work was accepted at <a href='https://cscw.acm.org/2023'>CSCW
-      2023</a> and <a
-      href='https://www.hadr.ai/'>NeurIPS '21 Workshop</a> (AI for Humanitarian
-      Assistance and Disaster Response).</p>
 
-      <img src='site.baseurl/assets/images/project_detail/swarmdetail.jpg'
-      class='img-responsive' alt='satellite imagery project image'>
-
-      <p style='text-align: center;'><b>Magnetic Force-Driven Behavioral Shifts in Swarm Robots</b></p>
+      <p style='text-align: center;'><b>Mission performing scenario of Swarm Robots</b></p>
 
       <hr>
 
@@ -140,50 +134,44 @@ project:
       - Research
       - Swarm Robotics
       - Stimuli-responsive
-    description: >-
-      Guiding the design of AI explanation for assessing building damages from
-      satellite imageries
-    paper: neurips2021_satellite-explainability_workshop.pdf
-    link: 'https://eng.snu.ac.kr/snu/pgm/hallOfFame/list.do?menuNo=200142&pageIndex=1&searchWnpz=WNPZ001&searchRnd=CRTV_2023_01'
+    description: Swarm robotic system using magnetic forces for autonomous coordination and dynamic behavior
     id: satellite-explainability
 
   - title: Anti-noise canceling PCB module
     image: antinoise_PCB.jpg
-    paper: chi2024_cpd-hcd_paper.pdf
     detail: >
-      <p>Working with <a href='https://ruican-zhong.netlify.app/'>Ruican Zhong</a>, <a href='https://faculty.washington.edu/garyhs/'>Gary Hsieh</a>, <a href="https://lucascolusso.com/">Lucas Colusso</a>, and Kaiser Permanente research team, we built an LLM-infused Miro plugin that helps designers to generate causal pathway diagrams (CPDs) to inform their theory-driven designing. (CHI '24 paper)</p>
+      <p>The detection module filters sound sensor outputs (2kHz–5kHz) and triggers a 15V signal when the voltage exceeds 700mV.</p>
+      
+      <p>This was a project for the coursework 'Circuit Theory and Experiments'</p>
+      <img src='site.baseurl/assets/images/project_detail/vibdetail.jpg' class='img-responsive' alt='keyscreen of our system'>
 
-      <img src='site.baseurl/assets/images/project_detail/cpd-example.jpg' class='img-responsive' alt='keyscreen of our system'>
-
-      <p style='text-align: center;'><b>An example of causal pathway diagram (CPD)</b></p>
+      <p style='text-align: center;'><b>Anti-noise canceling Circuit Design & PCB</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>Building a system</p>
+      <p><b>[My role in this project]</b><br>PCB Design</p>
     tags:
       - PCB Design
       - Circuit Design
-    description: >-
-      An LLM-infused Miro plugin that helps causal diagramming for human-centered design
+    description: PCB module designed to detect car horns and provide tactile alerts enhancing pedestrian awareness of approaching vehicles
     id: design_card
-  - title: Talk Concert “Connecting the World with Engineering”
+  - title: “Connecting the World with Engineering”
     image: Talkconcert.jpg
     link : https://stementor.tistory.com/entry/%EC%84%9C%EC%9A%B8%EB%8C%80%ED%95%99%EA%B5%90-%EA%B3%B5%EA%B3%BC%EB%8C%80%ED%95%99-%EC%9A%B0%EC%88%98%ED%95%99%EC%83%9D%EC%84%BC%ED%84%B0-%EA%B3%B5%EC%9A%B0-%ED%86%A0%ED%81%AC%EC%BD%98%EC%84%9C%ED%8A%B8-%EA%B3%B5%ED%95%99%EC%9C%BC%EB%A1%9C-%EC%84%B8%EC%83%81%EA%B3%BC-%EC%86%8C%ED%86%B5%ED%95%98%EB%8B%A4-%EC%B0%B8%EA%B0%80-%EC%8B%A0%EC%B2%AD-211%ED%86%A0
     detail: >
-      <p>Working with <a href='https://taewankim.io/'>Taewan Kim</a>, we explored the
-      design space of generative language models (e.g., GPT-3) in supporting a
-      reflective writing process. (CHI '24 paper)</p>
+      <p>This is a leadership project by the 13th class of <a href='https://www.gongwoo.snu.ac.kr/'>STEM</a>, an honor society at Seoul National University.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/diarymate.jpg' class='img-responsive'
-      alt='keyscreen of our system'>
+      <p>We hosted the 'Engineering Talk Concert' to make engineering more accessible to the public. 
+      <br>The event was held on February 11th, 2023.<br></p>
 
-      <p style='text-align: center;'><b>Keyscreen of our
-      system</b></p>
+      <img src='site.baseurl/assets/images/project_detail/talkdetail.jpg' class='img-responsive'
+      style='max-width: 650px !important;' alt='K-MOOC project image'>
+
+      <p style='text-align: center;'><b>Engineering Talk Concert Part 3</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>System development, design
-      ideation</p>
+      <p><b>[My role in this project]</b><br>Speaker, Organizer, Promoter</p>
     tags:
       - Community Outreach
       - Talk Concert
@@ -192,21 +180,15 @@ project:
       Engineering talk concert for 200 public audiences
     id: diarymate
   - detail: >
-      <p>In this project, we investigated how older adults use online videos
-      for learning. To better understand the online learning of older adults, we
-      adopted a mixed-method approach: (1) analyzing 41.8M logs extracted from
-      K-MOOC, a Korean MOOC (Massive Open Online Course) platform and (2) running
-      in-depth interview sessions with older adults.<br><br></p>
+      <p>This is a leadership project by the 13th class of <a href='https://www.gongwoo.snu.ac.kr/'>STEM</a>, an honor society at Seoul National University.</p>
 
-      <p>Led by <a href='https://sites.google.com/view/seoyoung/'>Seoyoung
-      Kim</a>, this project was advised by <a href='https://juhokim.com/'>Juho
-      Kim</a>. (CHI '23 paper)</p>
+      <p>We hosted the 'Engineering Talk Concert' to make engineering more accessible to the public. 
+      The event was held on February 11th, 2023.<br><br></p>
 
-      <img src='site.baseurl/assets/images/project_detail/kmooc.jpg' class='img-responsive'
+      <img src='site.baseurl/assets/images/project_detail/talkdetail.jpg' class='img-responsive'
       style='max-width: 650px !important;' alt='K-MOOC project image'>
 
-      <p style='text-align: center;'><b>Example of the data
-      analysis from our study</b></p>
+      <p style='text-align: center;'><b>Engineering Talk Concert Part 3</b></p>
 
       <hr>
 
@@ -334,29 +316,27 @@ project:
     link: https://play.google.com/store/apps/details?id=com.solive.kiwoomi&hl=ko
     id: spring2021crp
   - category: schoolwork
-    code: 'https://github.com/donghoon-io/PoliNewsBot'
     detail: >
-      <p>We aimed to develop a system that facilitates users' conversation on
-      political issues and developed a high-fidelity prototype: PoliNewsBot.</p>
+      <p>We aimed to develop a very simple and small-sized system that generates vibration when detached or attached, creating a tactile feedback mechanism.</p>
 
-      <p>This work was submitted as a team project assignment to the Spring 2021
-      HCI Theory and Practice course.</p>
+      <p>The system is designed to be easily integrated into various devices, 
+      providing users with a dynamic response to physical interaction. 
+      This was used in  <a href="https://www.soliveventures.com/">Solive Ventures</a> prototype in sensory device.</p>
 
-      <img src='site.baseurl/assets/images/project_detail/spring2021hci.jpg' class='img-responsive'
-      alt='Spring 2021 HCI theory and practice project image'>
+      <img src='site.baseurl/assets/images/project_detail/vibedetail.jpg' class='img-responsive'
+      alt='vibrationmodule'>
 
-      <p style='text-align: center;'><b>Keyscreens of
-      PoliNewsBot</b></p>
+      <p style='text-align: center;'><b>Vibration Module and modular toy application</b></p>
 
       <hr>
 
-      <p><b>[My role in this project]</b><br>System development, ideation, setting
+      <p><b>[My role in this project]</b><br>PCB, Circuit Design, ideation, setting
       up dialogues</p>
     tags:
-      - Coursework
-      - CMC
-      - iOS
-    image: spring2021hci.jpg
-    title: PoliNewsBot
-    description: Chat moderator for facilitating discussion on political issues
+      - PCB Design
+      - Circuit Design
+      - Tactile Feedback
+    image: simplevib.jpg
+    title: VibeToggle
+    description: A mini PCB module that generates vibration when detached or attached
     id: spring2021hci
